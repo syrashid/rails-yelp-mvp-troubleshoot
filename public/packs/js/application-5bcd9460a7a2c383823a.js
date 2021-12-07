@@ -137,10 +137,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rails_activestorage__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_rails_activestorage__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var channels__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! channels */ "./app/javascript/channels/index.js");
 /* harmony import */ var channels__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(channels__WEBPACK_IMPORTED_MODULE_3__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'boostrap'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
+
 
 
 
@@ -1299,7 +1301,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
       form.removeChild(button);
     }
 
-    submitButtonsByForm.delete(form);
+    submitButtonsByForm["delete"](form);
   }
 
   function disable(input) {
@@ -3245,4 +3247,4 @@ module.exports = function (module) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=application-e421b4aa3f716bebdab1.js.map
+//# sourceMappingURL=application-5bcd9460a7a2c383823a.js.map
